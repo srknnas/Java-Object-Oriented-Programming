@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Multi-file class diagram">
+  <ClassDiagramComponents>
+    <Class name="JavaExample" package="javaexample" visibility="publıc" xPosition="20.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="publıc" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Ogrenci" package="" visibility="publıc" xPosition="320.0" yPosition="20.0">
+      <Fields>
+        <Field name="ortalama" type="int" visibility="prıvate"/>
+        <Field name="bolum" type="String" visibility="prıvate"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="dersCalismak" returnType="void" visibility="publıc"/>
+      </Methods>
+    </Class>
+    <Class name="Insan" package="" visibility="publıc" xPosition="620.0" yPosition="20.0">
+      <Fields>
+        <Field name="yas" type="int" visibility="prıvate"/>
+        <Field name="boy" type="int" visibility="prıvate"/>
+        <Field name="kilo" type="int" visibility="prıvate"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="yemek" returnType="int" visibility="publıc"/>
+        <Method name="calismak" returnType="void" visibility="publıc"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <IsRelation name="is" source="Ogrenci" target="Insan"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

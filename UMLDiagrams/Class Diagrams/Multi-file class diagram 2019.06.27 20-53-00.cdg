@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Multi-file class diagram">
+  <ClassDiagramComponents>
+    <Class name="Calisan" package="javaexample" visibility="publıc" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="maas" type="double" visibility="package"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="zam" returnType="void" visibility="publıc">
+          <Argument type="double" name="oran"/>
+        </Method>
+        <Method name="zam2" returnType="void" visibility="publıc">
+          <Argument type="double" name="oran"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="JavaExample" package="javaexample" visibility="publıc" xPosition="225.0" yPosition="200.0">
+      <Fields>
+        <Field name="x" type="int" visibility="package" isStatic="true"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="f" returnType="int" visibility="package" isStatic="true">
+          <Argument type="int" name="y"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="publıc" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="insan" package="javaexample" visibility="publıc" xPosition="22.0" yPosition="249.0">
+      <Fields>
+        <Field name="boy" type="int" visibility="package"/>
+        <Field name="kilo" type="int" visibility="package"/>
+        <Field name="yasi" type="int" visibility="package"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="yemek" returnType="void" visibility="package"/>
+      </Methods>
+    </Class>
+    <Interface name="NewInterface" package="javaexample" visibility="publıc" xPosition="290.0" yPosition="45.0">
+      <Methods>
+        <Method name="zam" returnType="void" visibility="package">
+          <Argument type="double" name="oran"/>
+        </Method>
+      </Methods>
+    </Interface>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="javaexample.Calisan" target="javaexample.NewInterface"/>
+    <IsRelation name="is" source="javaexample.Calisan" target="javaexample.insan"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

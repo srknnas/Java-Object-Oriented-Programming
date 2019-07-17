@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="diyagram">
+  <ClassDiagramComponents>
+    <Class name="Insan" package="" visibility="publıc" xPosition="60.0" yPosition="199.0">
+      <Fields>
+        <Field name="yas" type="int" visibility="prıvate"/>
+        <Field name="boy" type="int" visibility="prıvate"/>
+        <Field name="kilo" type="int" visibility="prıvate"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="yemek" returnType="int" visibility="publıc"/>
+        <Method name="calismak" returnType="void" visibility="publıc"/>
+      </Methods>
+    </Class>
+    <Class name="Ogrenci" package="" visibility="publıc" xPosition="254.0" yPosition="406.0">
+      <Fields>
+        <Field name="ortalama" type="int" visibility="prıvate"/>
+        <Field name="bolum" type="String" visibility="prıvate"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="dersCalismak" returnType="void" visibility="publıc"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <IsRelation name="is" source="Ogrenci" target="Insan"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
